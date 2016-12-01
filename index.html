@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from demos.jeweltheme.com/inventory/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Nov 2016 15:56:09 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -201,7 +198,6 @@
         </div>
     </div>
 </div>
-
 <!-- preload -->
 <div id="loading">
 <div id="loading-center">
@@ -214,7 +210,6 @@
 </div>
 
 </div>
-
 <div class="inv-poput-login " id='inv-login-js'>
     <form>
         <input type="text" placeholder="Username or Email Address *">
@@ -254,6 +249,55 @@
     </p>
 </div>
 
+
+<!-- //////////////////////// -->
+<div class="inv-start-block inv-bg-block"><img src="images/bg1.jpg" alt="" class="inv-img">
+    <div class="container padd-lr0">
+        <div class="row">
+            <div class="col-xs-12">
+                <header class=" inv-block-header margin-lg-t340 margin-lg-b75 margin-sm-t270">
+                    <h1>Explore your City’s Finest</h1>
+                    <h5>We help you to find hotels, restaurents, shops, places to visit, etc in over 150+ Countries</h5>
+                </header>
+                <div class="inv-start-form">
+                    <label for="key">
+                        <input id="key" type="text" placeholder="Keywords">
+                    </label>
+                    <label for="loc">
+                        <input id="loc" type="text" placeholder="All Locations">
+                        <button class="get-geolocation-btn" type="button" name="button"><i class="fa fa-crosshairs"></i></button>
+                    </label>
+                    <label for="categ">
+                        <select id="categ" class="selectpicker">
+                            <option value="All">All Categories</option>
+                            <option value="store">Store</option>
+                            <option value="restaurant">Restaurant</option>
+                            <option value="lodging">Hotels</option>
+                            <option value="museum">Museum</option>
+                        </select>
+                    </label>
+                    <div class="radius">
+                      <a class="compas  icon-compass icons"></a>
+                      <div class="radius__popup">
+                        <button class="radius__close"><i class="fa fa-times"></i></button>
+                        <span class="radius__output"><span class="js-radius">50</span>km</span>
+                        <input type="range" name="rad" class="radius__bar" value="50" min="0.1" step="0.1" max="100">
+                        <span class="radius__help">Set radius for geolocation</span>
+                      </div>
+                    </div>
+                    <button id="searchList"><i class="icon-magnifier icons"></i>Search Now</button>
+                </div>
+                <div class="inv-group margin-lg-b200 margin-sm-b100">
+                    <a href="directory_explore.html" class="inv-group-item bg19"><i class="fa fa-building"></i><span>Hotels</span></a>
+                    <a href="directory_explore.html" class="inv-group-item bg2"><i class="fa fa-cutlery"></i><span>Foods</span></a>
+                    <a href="directory_explore.html" class="inv-group-item bg20"><i class="fa fa-film"></i><span>Movies</span></a>
+                    <a href="directory_explore.html" class="inv-group-item bg21"><i class="fa fa-shopping-cart"></i><span>Shops</span></a>
+                    <a href="directory_explore.html" class="inv-group-item bg22"><i class="fa fa-plus"></i><span>More</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- //////////////////////// -->
 <div class="container padd-lr0">
     <div class="row">
@@ -264,65 +308,61 @@
             </header>
         </div>
     </div>
-
-
     <div class="row">
-          <div class="col-xs-12 padd-lr0">
-              <div class="inv-places margin-lg-b170 margin-sm-b100">
-                  <div class="col-xs-12 col-sm-6 col-md-3">
-                      <a href="#">
-                          <div class="inv-places-item bg1">
-                              <img src="images/i1.jpg" alt="">
-                              <div class="inv-places-info"><i class="fa fa-university bg1"></i><span>Parris, France</span></div>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-6">
-                      <a href="#">
-                          <div class="inv-places-item bg2">
-                              <img src="images/i2.jpg" alt="">
-                              <div class="inv-places-info"><i class="fa fa-cutlery bg2"></i><span>Modena, Italy</span></div>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-3">
-                      <a href="#">
-                          <div class="inv-places-item bg3">
-                              <img src="images/i3.jpg" alt="">
-                              <div class="inv-places-info"><i class="fa fa-film bg3"></i><span>Berlin, Germany</span></div>
-                          </div>
-                      </a>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-6 col-md-6">
-                  <a href="#">
-                      <div class="inv-places-item bg4">
-                          <img src="images/i4.jpg" alt="">
-                          <div class="inv-places-info"><i class="fa fa-male bg4"></i><span>California, USA</span></div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                  <a href="#">
-                      <div class="inv-places-item bg5">
-                          <img src="images/i5.jpg" alt="">
-                          <div class="inv-places-info"><i class="fa fa-building bg5"></i><span>Barcelona, Spain</span></div>
-                      </div>
-                  </a>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                  <a href="#">
-                      <div class="inv-places-item bg6">
-                          <img src="images/i6.jpg" alt="">
-                          <div class="inv-places-info"><i class="fa fa fa-music bg6"></i><span>Las Vegas, USA</span></div>
-                      </div>
-                  </a>
-              </div>
-          </div>
-      </div>
-  </div>
+        <div class="col-xs-12 padd-lr0">
+            <div class="inv-places margin-lg-b170 margin-sm-b100">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <a href="listing-details.html">
+                        <div class="inv-places-item bg1">
+                            <img src="images/i1.jpg" alt="">
+                            <div class="inv-places-info"><i class="fa fa-university bg1"></i><span>Parris, France</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <a href="listing-details.html">
+                        <div class="inv-places-item bg2">
+                            <img src="images/i2.jpg" alt="">
+                            <div class="inv-places-info"><i class="fa fa-cutlery bg2"></i><span>Modena, Italy</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <a href="listing-details.html">
+                        <div class="inv-places-item bg3">
+                            <img src="images/i3.jpg" alt="">
+                            <div class="inv-places-info"><i class="fa fa-film bg3"></i><span>Berlin, Germany</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <a href="listing-details.html">
+                        <div class="inv-places-item bg4">
+                            <img src="images/i4.jpg" alt="">
+                            <div class="inv-places-info"><i class="fa fa-male bg4"></i><span>California, USA</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <a href="listing-details.html">
+                        <div class="inv-places-item bg5">
+                            <img src="images/i5.jpg" alt="">
+                            <div class="inv-places-info"><i class="fa fa-building bg5"></i><span>Barcelona, Spain</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <a href="listing-details.html">
+                        <div class="inv-places-item bg6">
+                            <img src="images/i6.jpg" alt="">
+                            <div class="inv-places-info"><i class="fa fa fa-music bg6"></i><span>Las Vegas, USA</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
 <!-- //////////////////////// -->
 <div class="inv-works">
     <div class="bg7">
@@ -341,78 +381,74 @@
             </div>
         </div>
     </div>
-
     <div class="container padd-lr0">
-          <div class="row">
-              <div class="col-xs-12">
-                  <div class="inv-works-body margin-lg-b225 margin-sm-b30">
-                      <div class="inv-works-item">
-                          <span>1</span>
-                          <img src="images/l1.png" alt="">
-                          <h5>Choose Category</h5>
-                          <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                      </div>
-                      <div class="inv-works-item">
-                          <span>2</span>
-                          <img src="images/l2.png" alt="">
-                          <h5>Find The Place</h5>
-                          <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                      </div>
-                      <div class="inv-works-item">
-                          <span>3</span>
-                          <img src="images/l3.png" alt="">
-                          <h5>Enjoy your Day</h5>
-                          <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <!-- //////////////////////// -->
-  <!-- //////////////////////// -->
-  <div class="inv-places2 inv-bg-block padding-lg-b150 padding-sm-b100">
-      <img src="images/bg2.jpg" alt="" class="inv-img">
-      <div class="container padd-lr0">
-          <div class="row">
-              <div class="col-xs-12">
-                  <header class=" inv-block-header  margin-lg-t140 margin-lg-b10 margin-sm-t100">
-                      <h3>Featured Places to go</h3>
-                      <span>Appropriately Strategize Performance Based Intellectual Capital Before Premier Users</span>
-                  </header>
-              </div>
-          </div>
-
-          <div class="row margin-lg-t90">
-          <div class="col-xs-12 col-sm-4">
-              <div class="inv-places2-item">
-                  <div class="inv-places2-head"><img src="images/i9a.jpg" alt=""><i class="fa fa-heart-o"></i></div>
-                  <div class="bg8 inv-places2-row">
-                      <div class="inv-places2-info">
-                          <h3>
-                              <a href="#">The Louvre Museum</a>
-                          </h3>
-                          <span>75001 Paris, France</span>
-                      </div>
-                      <div class="inv-places2-footer">
-                          <div class="info-rating">
-                              <i class="fa fa-university col1"></i>
-                              <div class="wpc-star-rate"></div>
-                              <span class="reviews">5.0/5</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-4">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="inv-works-body margin-lg-b225 margin-sm-b30">
+                    <div class="inv-works-item">
+                        <span>1</span>
+                        <img src="images/l1.png" alt="">
+                        <h5>Choose Category</h5>
+                        <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    </div>
+                    <div class="inv-works-item">
+                        <span>2</span>
+                        <img src="images/l2.png" alt="">
+                        <h5>Find The Place</h5>
+                        <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    </div>
+                    <div class="inv-works-item">
+                        <span>3</span>
+                        <img src="images/l3.png" alt="">
+                        <h5>Enjoy your Day</h5>
+                        <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //////////////////////// -->
+<!-- //////////////////////// -->
+<div class="inv-places2 inv-bg-block padding-lg-b150 padding-sm-b100">
+    <img src="images/bg2.jpg" alt="" class="inv-img">
+    <div class="container padd-lr0">
+        <div class="row">
+            <div class="col-xs-12">
+                <header class=" inv-block-header  margin-lg-t140 margin-lg-b10 margin-sm-t100">
+                    <h3>Featured Places to go</h3>
+                    <span>Appropriately Strategize Performance Based Intellectual Capital Before Premier Users</span>
+                </header>
+            </div>
+        </div>
+        <div class="row margin-lg-t90">
+            <div class="col-xs-12 col-sm-4">
+                <div class="inv-places2-item">
+                    <div class="inv-places2-head"><img src="images/i9a.jpg" alt=""><i class="fa fa-heart-o"></i></div>
+                    <div class="bg8 inv-places2-row">
+                        <div class="inv-places2-info">
+                            <h3>
+                                <a href="listing-details.html">The Louvre Museum</a>
+                            </h3>
+                            <span>75001 Paris, France</span>
+                        </div>
+                        <div class="inv-places2-footer">
+                            <div class="info-rating">
+                                <i class="fa fa-university col1"></i>
+                                <div class="wpc-star-rate"></div>
+                                <span class="reviews">5.0/5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
                 <div class="inv-places2-item">
                     <div class="inv-places2-head"><img src="images/i9b.jpg" alt=""><i class="fa fa-heart-o"></i></div>
                     <div class="bg8 inv-places2-row">
                         <div class="inv-places2-info">
                             <h3>
-                                <a href="#">Disneyland</a>
+                                <a href="listing-details.html">Disneyland</a>
                             </h3>
                             <span>1313 Disneyland Dr, Anaheim, CA 92802, USA</span>
                         </div>
@@ -426,14 +462,13 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-xs-12 col-sm-4">
                 <div class="inv-places2-item">
                     <div class="inv-places2-head"><img src="images/i9c.jpg" alt=""><i class="fa fa-heart-o"></i></div>
                     <div class="bg8 inv-places2-row">
                         <div class="inv-places2-info">
                             <h3>
-                                <a href="#">Gili Lankanfushi Maldives</a>
+                                <a href="listing-details.html">Gili Lankanfushi Maldives</a>
                             </h3>
                             <span>Lankanfushi Island, North Malé Atoll, Maldives</span>
                         </div>
@@ -450,7 +485,6 @@
         </div>
     </div>
 </div>
-
 <!-- //////////////////////// -->
 <!-- //////////////////////// -->
 <div class="container padd-lr0">
@@ -467,7 +501,7 @@
             <div class="inv-categorys margin-lg-b120">
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg1"><img src="images/i3.jpg" alt="">
                                 <div class="inv-elem fa fa-university "><i class="bg1">35</i></div>
                             </div>
@@ -479,7 +513,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg6"><img src="images/i11.jpg" alt="">
                                 <div class="inv-elem fa fa fa-music"><i class="bg6">29</i></div>
                             </div>
@@ -491,7 +525,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg2"><img src="images/i12.jpg" alt="">
                                 <div class="inv-elem fa fa-cutlery"><i class="bg2">18</i></div>
                             </div>
@@ -503,7 +537,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg4"><img src="images/i13.jpg" alt="">
                                 <div class="inv-elem fa fa-male "><i class="bg4">09</i></div>
                             </div>
@@ -515,7 +549,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg3"><img src="images/i14.jpg" alt="">
                                 <div class="inv-elem fa fa-film"><i class="bg3">63</i></div>
                             </div>
@@ -527,7 +561,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg5"><img src="images/i15.jpg" alt="">
                                 <div class="inv-elem fa fa-building"><i class="bg5">47</i></div>
                             </div>
@@ -539,7 +573,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg11"><img src="images/i16.jpg" alt="">
                                 <div class="inv-elem fa fa-shopping-cart"><i class="bg9">21</i></div>
                             </div>
@@ -551,7 +585,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-3">
                     <div class="inv-category-item">
-                        <a href="#">
+                        <a href="listing.html">
                             <div class="inv-category-head bg10"><img src="images/i17.jpg" alt="">
                                 <div class="inv-elem fa fa-glass"><i class="bg10 ">35</i ></div>
                             </div>
@@ -565,10 +599,53 @@
         </div>
     </div>
 </div>
-
 <!-- //////////////////////// -->
 <!-- //////////////////////// -->
-
+<div class="bg7">
+    <div class="container padd-only-xs">
+        <div class="row">
+            <div class="col-xs-12">
+                <header class=" inv-block-header  margin-lg-t140 margin-lg-b140 margin-sm-t100 margin-sm-b100" >
+                    <h3>Read Awesome Stories</h3>
+                    <span>Appropriately Strategize Performance Based Intellectual Capital Before Premier Users</span>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="inv-stories-item">
+                    <div class="inv-stories-img"><img src="images/i19.jpg" alt="" class="inv-img"></div>
+                    <div class="inv-stories-content">
+                        <div class="inv-stories-head"><span>June 29, 2016  by<a href="#"> Mark Travor</a> in<a href="#"> Culture</a></span></div>
+                        <div class="inv-stories-info">
+                            <h5>
+                                <a href="blog_post.html">The Extreme Culture of London’s Underground Club</a>
+                            </h5>
+                            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="inv-stories-item inv-stories-item2">
+                    <div class="inv-stories-img"><img src="images/i20.jpg" alt="" class="inv-img"></div>
+                    <div class="inv-stories-content">
+                        <div class="inv-stories-head"><span>June 29, 2016  by<a href="#"> Mark Travor</a> in<a href="#"> Culture</a></span></div>
+                        <div class="inv-stories-info">
+                            <h5>
+                                <a href="blog_post.html">The Observer view on how to vote in the European Union referendum</a>
+                            </h5>
+                            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="text-center margin-lg-b145 margin-sm-b100"><a href="blog.html" class="inv-btn">View All Stories</a></div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- //////////////////////// -->
 <!-- //////////////////////// -->
 <div class="inv-bg-block inv-clients padding-lg-b110">
@@ -577,68 +654,67 @@
             <div class="row">
                 <div class="col-xs-12">
                     <header class=" inv-block-header margin-lg-t140 margin-sm-t100 margin-lg-b105">
-                        <h3>Our Users Reviews</h3>
+                        <h3>Our Client’s Reviews</h3>
                         <span>Appropriately Strategize Performance Based Intellectual Capital Before Premier Users</span>
                     </header>
                 </div>
             </div>
-
             <div class="row">
-              <div class="col-xs-12">
-              <div class="inv-clients-slider">
-                  <div class="swiper-container inv-clients-slide" data-autoplay="5000" data-loop="1" data-speed="1000" data-slides-per-view="responsive" data-add-slides="1" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="1">
-                      <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                              <div class="inv-clients-item bg11">
-                                  <div class="inv-clients-img-wrap">
-                                      <img src="images/l5.jpg" alt="">
-                                  </div>
-                                  <div class="inv-clients-info">
-                                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-                                  </div>
-                                  <div class="inv-clients-user">
-                                      <h6>Orsi Richardson</h6>
-                                      <img src="images/h-after2.png" alt="">
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="swiper-slide">
-                              <div class="inv-clients-item bg11">
-                                  <div class="inv-clients-img-wrap">
-                                      <img src="images/l5b.jpg" alt="">
-                                  </div>
-                                  <div class="inv-clients-info">
-                                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-                                  </div>
-                                  <div class="inv-clients-user">
-                                      <h6>Lisa Gerrard</h6>
-                                      <img src="images/h-after2.png" alt="">
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="swiper-slide">
-                              <div class="inv-clients-item bg11">
-                                  <div class="inv-clients-img-wrap">
-                                      <img src="images/l5c.jpg" alt="">
-                                  </div>
-                                  <div class="inv-clients-info">
-                                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-                                  </div>
-                                  <div class="inv-clients-user">
-                                      <h6>Mike Ross</h6>
-                                      <img src="images/h-after2.png" alt="">
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="pagination"></div>
-                  </div>
-                      <div class="swiper-outer-left"></div>
-                      <div class="swiper-outer-right"></div>
-              </div>
-              </div>
-          </div>
-      </div>
+                <div class="col-xs-12">
+                <div class="inv-clients-slider">
+                    <div class="swiper-container inv-clients-slide" data-autoplay="5000" data-loop="1" data-speed="1000" data-slides-per-view="responsive" data-add-slides="1" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="inv-clients-item bg11">
+                                    <div class="inv-clients-img-wrap">
+                                        <img src="images/l5.jpg" alt="">
+                                    </div>
+                                    <div class="inv-clients-info">
+                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                                    </div>
+                                    <div class="inv-clients-user">
+                                        <h6>Orsi Richardson</h6>
+                                        <img src="images/h-after2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="inv-clients-item bg11">
+                                    <div class="inv-clients-img-wrap">
+                                        <img src="images/l5b.jpg" alt="">
+                                    </div>
+                                    <div class="inv-clients-info">
+                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                                    </div>
+                                    <div class="inv-clients-user">
+                                        <h6>Lisa Gerrard</h6>
+                                        <img src="images/h-after2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="inv-clients-item bg11">
+                                    <div class="inv-clients-img-wrap">
+                                        <img src="images/l5c.jpg" alt="">
+                                    </div>
+                                    <div class="inv-clients-info">
+                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+                                    </div>
+                                    <div class="inv-clients-user">
+                                        <h6>Mike Ross</h6>
+                                        <img src="images/h-after2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination"></div>
+                    </div>
+                        <div class="swiper-outer-left"></div>
+                        <div class="swiper-outer-right"></div>
+                </div>
+                </div>
+            </div>
+        </div>
 </div>
 <!-- //////////////////////// -->
 <!-- //////////////////////// -->
@@ -658,18 +734,18 @@
                 <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
             </div>
         </div>
-
         <div class="col-sm-4 padd-lr0">
-          <div class="inv-3item margin-lg-b140 margin-lg-t150 margin-sm-b100 margin-sm-t100">
-              <i class="icon-globe icons bg5"></i>
-              <h5>Tons of places</h5>
-              <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
-          </div>
-      </div>
-  </div>
+            <div class="inv-3item margin-lg-b140 margin-lg-t150 margin-sm-b100 margin-sm-t100">
+                <i class="icon-globe icons bg5"></i>
+                <h5>Tons of places</h5>
+                <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- //////////////////////// -->
 <!-- //////////////////////// -->
+
 <!-- //////////////////////// -->
 <!-- FOOTER -->
 <a href="#" class="toTop"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
@@ -684,8 +760,8 @@
                     </div>
                     <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit</p>
                     <ul>
-                        <li><a href="#"><i class="fa fa-phone"></i> +254 725 743 069</a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i>ngangangahu@gmail.com</a></li>
+                        <li><a href="#"><i class="fa fa-phone"></i> +61 3 8376 6284</a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i>contact@top-listing.com</a></li>
                     </ul>
                     <div class="inv-soc">
                         <a href="#" class="fa fa-twitter"></a>
@@ -736,58 +812,56 @@
                     </ul>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-6 ">
-              <div class="inv-footer-item inv-before-elem">
-                  <h3>Useful Links</h3>
-                  <ul>
-                      <li><a href="#" class="">About us</a></li>
-                      <li><a href="#" class="">Terms & conditions</a></li>
-                      <li><a href="#" class="">Privacy policy</a></li>
-                      <li><a href="#" class="">Site Map</a></li>
-                      <li><a href="#" class="">Help Center</a></li>
-                      <li><a href="#" class="">Career</a></li>
-                  </ul>
-              </div>
-          </div>
-          <div class="col-md-3 col-sm-6 padd-lr0">
-              <div class="inv-footer-gallery">
-                  <h3>Instagram Feed</h3>
-                  <div class=" inv-gallery ">
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/54.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/55.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/60.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/i78.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/45.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/46.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/51.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/i9b.jpg" alt=""></a>
-                      </div>
-                      <div class="inv-footer-galery-item">
-                          <a href="#"><img src="images/i44.jpg" alt=""></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+                <div class="inv-footer-item inv-before-elem">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#" class="">About us</a></li>
+                        <li><a href="#" class="">Terms & conditions</a></li>
+                        <li><a href="#" class="">Privacy policy</a></li>
+                        <li><a href="#" class="">Site Map</a></li>
+                        <li><a href="#" class="">Help Center</a></li>
+                        <li><a href="#" class="">Career</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 padd-lr0">
+                <div class="inv-footer-gallery">
+                    <h3>Instagram Feed</h3>
+                    <div class=" inv-gallery ">
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/54.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/55.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/60.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/i78.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/45.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/46.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/51.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/i9b.jpg" alt=""></a>
+                        </div>
+                        <div class="inv-footer-galery-item">
+                            <a href="#"><img src="images/i44.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-
 
     <!-- Scripts project -->
     <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
@@ -815,5 +889,4 @@
     <script type="text/javascript" src="assets/js/index.js"></script>
     <!-- sixth block end -->
 </body>
-
 </html>
